@@ -42,7 +42,7 @@ function LeftTable() {
     const thresholdValue = parseInt(threshold, 10);
 
     if (thresholdValue < 1 || thresholdValue > 100) {
-      setErrorMessage('Please insert a valid threshold percentage, between 1 to 100.');
+      setErrorMessage('Enter an integer threshold value, between 1 and 100.');
       setThreshold(gatewayConfig.threshold);
       setShowError(true);
       return;

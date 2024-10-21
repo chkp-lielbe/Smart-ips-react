@@ -38,11 +38,11 @@ const GatewayConfigProvider = ({ children }) => {
   }
 
   if (errorState) {
-    return <div>There was an error during the rendering of the application, please contact support.</div>;
+    return <div>Rendering of the application failed. Contact Check Point Support.</div>;
   }
 
   if (noGWCodeState) {
-    return <div>The current version of the Gateway do not support this application, please upgrade the Gateway version.</div>;
+    return <div>The current version of the Gateway does not support this application. Upgrade to the version R82 or higher.</div>;
   }
 
   return (

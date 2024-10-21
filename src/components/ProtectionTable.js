@@ -32,7 +32,7 @@ function ProtectionTable() {
           className={activeTab === 'critical-impact-protections' ? 'active' : ''}
           onClick={() => handleTabClick('critical-impact-protections')}
         >
-          Critical Impact Protections
+          IPS Protections with Critical Impact
         </h1>
         <h1
           id="log-history"
