@@ -1,6 +1,6 @@
 
 // script file path
-export const SMART_DPI_CONFIG = "$FWDIR/bin/smart_dpi_config.pyc";
+export const SMART_DPI_CONFIG = "$FWDIR/scripts/smart_dpi_config.pyc";
 
 // Command paths for Smart DPI configuration
 export const SMART_DPI_PYTHON_CONFIG_REPORT = "python3 " + SMART_DPI_CONFIG + " report";
